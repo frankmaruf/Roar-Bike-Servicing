@@ -22,21 +22,12 @@ color: rgb(255, 255, 255);
     min-height: 300px;
     margin-left: auto;
     margin-right: auto;
-    &::before{
-        content: '';
         background-image: url(./images/image-lion-background.png) ;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-size: cover;
-      position: absolute;
-      top: 0px;
-      right: 0px;
-      bottom: 0px;
-      left: 0px;
       opacity: 0.90;
 
-    }
 }
 header{
     min-height: 100px;
