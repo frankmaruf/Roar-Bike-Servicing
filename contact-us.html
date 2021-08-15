@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- 75 -->
+<!-- 71 -->
 
 <head>
     <meta charset="UTF-8">
@@ -11,9 +11,9 @@
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto:300" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <meta name="description" content="simple web design">
+    <meta name="description" content="Contact details for Roar - 57 Moyglare Abbey, Dublin, w23c1k2. Phone +3525465481">
     <meta name="author" content="Abdullah Al Maruf">
-    <title>Mobile Bike repairs</title>
+    <title>Roar Cycle - Contact Us Details Address Phone Number</title>
 </head>
 
 <body>
@@ -26,27 +26,61 @@
             </div>
             <nav class="noselect">
                 <ul>
-                    <li class="dropdown">Book Online</li>
+                    <li class="dropdown">Book Online
+                        <ul>
+                            <li><a href="#">Onsite Service</a></li>
+                            <li><a href="#">Parts Delivery</a></li>
+                            <li><a href="#">Request Callback</a></li>
+                        </ul>
+                    </li>
                     <li class="dropdown">About Us</li>
-                    <li class="dropdown"><a href="contact-us.html">Contact Us</a></a></li>
+                    <li class="dropdown">Contact Us</li>
                 </ul>
             </nav>
         </header>
-        <main class="main">
-            <div class="herobox1">
-                <h1>Mobile bike repairs.</h1>
-                <p>Many people have difficulty getting their bikes to a bike shop. We call to your office or home
-                    anywhere in greater
-                    Dublin.</p>
-                <p>Fast, convenient bike servicing with up-front pricing. All without the hassle of
-                    taking your bike
-                    into a shop.</p>
-                <button onclick="getText()" class="btn noselect">Book Online</button>
+        <div class="main2">
+            <h1>Contact Us</h1>
+            <p>Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you
+                within a matter of hours to help you.</p>
+            <div class="center">
+                <form action="" method="post">
+                    <div class="input-wrapper">
+                        <label for="name">Full Name:</label>
+                        <input autocomplete="off" type="text" name="name" id="name" placeholder="Name">
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="email">Email:</label>
+                        <input autocomplete="off" type="email" name="email" id="email" placeholder="Email">
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="phone">Message:</label>
+                        <textarea name="message" id="message" placeholder="Message"></textarea>
+                    </div>
+                    <div class="input-wrapper">
+                        <input type="checkbox" value="yes-sing-me-up" name="email-sub" id="email-sub" />
+                        <label id="newsLabel" for="email-sub">SignUp for Email NewsLetter?</label>
+                    </div>
+                    <div class="input-wrapper">
+                        <p>how would you like to be contacted?</p>
+                        <input type="radio" name="contact-pref" id="Email" value="Email">
+                        <label for="Email" class="ml-1">Email</label>
+                        </input>
+                        <input type="radio" name="contact-pref" id="Phone" value="Phone">
+                        <label for="Phone">Phone</label>
+                        </input>
+                    </div>
+                    <div class="input-wrapper">
+                        <select name="county" id="county">
+                            <option value="Limerick">Limerick</option>
+                            <option selected value="Galway">Galway</option>
+                            <option value="Dublin">Dublin</option>
+                            <input type="date" name="date" id="date">
+                        </select>
+                    </div>
+                    <input type="submit" value="Submit">
+                </form>
             </div>
-            <div class="herobox2">
-                <img src="images/image-bike-repair-service.jpg" alt="Person doing moblile bike repair.">
-            </div>
-        </main>
+        </div>
         <div class="cards">
             <div class="card1 noselect">
                 <a href="#">
